@@ -1,0 +1,18 @@
+1. xampp download garne 
+2. xampp run garne 
+4. C:\xampp\htdocs yaha folder rakhne
+5. browserbata http://localhost/phpmyadmin/ ma jane 
+6. database create garne 
+---- database name $dbname = 'nitish'; 
+---- table name ='orders'
+7. yo hanne sql ma 
+CREATE TABLE orders (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_name VARCHAR(100),
+  vegetable_name VARCHAR(100),
+  vegetable_quantity DECIMAL(10,2),
+  vegetable_price DECIMAL(10,2),
+  vegetable_total DECIMAL(10,2)
+);
+8.http://localhost/nitishkophp/index.php ma jane 
+9. kaam garne 

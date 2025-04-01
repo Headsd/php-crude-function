@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+    margin: 0;
+    background: linear-gradient(135deg, #a8c0ff, #3f2b96); /* Updated gradient */
+    display: flex;
+    flex-direction: column; /* Allow content to flow vertically */
+    min-height: 100vh;
+    color: #000000; /* Light text for dark background */
+}
+
+h1, h2 {
+    color: #2c3e50; /* Darker, more professional color */
+    text-align: center; /* Center headings */
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%; /* Adjust container width */
+    max-width: 800px; /* Limit maximum width */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    margin: 20px;
+
+}
+ul li {
+    list-style: none;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Table shadow */
+    border-radius: 8px; /* Rounded table corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+}
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: 600; /* Bold headers */
+    color: #34495e; /* Darker header text */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row colors */
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* More vibrant link color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #2980b9; /* Darker hover color */
+    text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500; /* Slightly bold labels */
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: calc(100% - 20px); /* Adjust width for padding and border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px; /* Slightly more rounded inputs */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #3498db; /* Focus border color */
+    outline: none; /* Remove default focus outline */
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600; /* Bold submit button text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
